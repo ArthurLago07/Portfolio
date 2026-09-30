@@ -14,7 +14,7 @@ h1,h2,h3 {
     font-family: 'Space Grotesk', sans-serif;
 }
 
-*{
+* {
     box-sizing: border-box;
 }
 
@@ -37,12 +37,16 @@ nav ul {
     padding: 0;
 }
 
-nav, section, footer{
+nav,section,footer {
     max-width: 1100px;
     margin: 0 auto;
 }
 
 footer {
-   padding: 2rem 1.5rem;
-   text-align: center;
+    padding: 2rem 1.5rem;
+    text-align: center;
+}
+
+html{
+    scroll-behavior: smooth;
 }
