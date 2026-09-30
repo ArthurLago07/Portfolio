@@ -126,3 +126,22 @@ nav a:hover {
     gap: 1.5rem;
     margin-top: 2rem;
 }
+
+.card {
+    background-color: #1c1c1c;
+    border: 1px solid #2a2a2a;
+    border-radius: 12px;
+    padding: 1.5rem;
+    transition: transform 0.2s ease, border-color 0.3s ease;
+}
+
+.card:hover{
+    transform: translateY(-4px);
+    border-color: #f5b942;
+}
+
+.card-status{
+    color:#f5b942;
+    font-size: 0.85rem;
+    margin-bottom: 0;
+}
