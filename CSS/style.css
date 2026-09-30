@@ -50,3 +50,13 @@ footer {
 html{
     scroll-behavior: smooth;
 }
+
+nav a {
+    color: #e8e6e3;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #f5b942;
+}
