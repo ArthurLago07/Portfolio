@@ -16,4 +16,4 @@ secoes.forEach(function (secao) {
         secoes.forEach(function (secao) {
             observador.observe(secao);
         });
-    }, 1000);
+    }, 100);
