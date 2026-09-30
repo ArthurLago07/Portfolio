@@ -84,16 +84,9 @@ nav a:hover {
     margin-top: 2rem;
 }
 
-.btn-secundario {
-    
-    
+.btn-secundario { 
     background-color: transparent;
     color: #f5b942;
-    
-    
-    
-  
-    
 }
 
 .btn-secundario:hover {
