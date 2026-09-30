@@ -70,11 +70,11 @@ nav a:hover {
     border-radius: 8px;
     font-weight: 500;
     text-decoration: none;
-    transition: tranform 0.2s ease, background-color 0.3s ease;
+    transition: transform 0.2s ease, background-color 0.3s ease;
 }
 
 .btn:hover{
-    tranform: tranlateY(-3px);
+    transform: translateY(-3px);
     background-color: #ffd27a;
 }
 
