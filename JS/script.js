@@ -10,6 +10,10 @@ const observador= new IntersectionObserver(function (entradas) {
     });
 }, { threshold: 0.15 });         
 secoes.forEach(function (secao) {
-    observador.observe(secao);
     secao.classList.add("reveal");
-});
+    });
+    setTimeout(function () {
+        secoes.forEach(function (secao) {
+            observador.observe(secao);
+        });
+    }, 1000);
