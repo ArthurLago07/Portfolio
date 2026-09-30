@@ -220,3 +220,18 @@ nav a:hover {
         flex-wrap: wrap;
     }
 }
+
+.sobre-conteudo{
+    display:grid;
+    grid-template-columns: 280px 1fr;
+    gap: 2.5rem;
+    align-items: start;
+}
+
+.sobre-foto{
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 16px;
+    border: 1px solid #2a2a2a;
+}
