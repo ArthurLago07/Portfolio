@@ -85,15 +85,15 @@ nav a:hover {
 }
 
 .btn-secundario {
-    display: inline-block;
-    padding: 0.75rem 1.5rem;
+    
+    
     background-color: transparent;
     color: #f5b942;
-    border: 2px solid #f5b942;
-    border-radius: 8px;
-    font-weight: 500;
-    text-decoration: none;
-    transition: background-color 0.3s ease, color 0.3s ease;
+    
+    
+    
+  
+    
 }
 
 .btn-secundario:hover {
