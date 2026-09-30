@@ -60,3 +60,20 @@ nav a {
 nav a:hover {
     color: #f5b942;
 }
+
+.btn {
+   display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: #f5b942;
+    color: #121212;
+    border: 2px solid #f5b942;
+    border-radius: 8px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: tranform 0.2s ease, background-color 0.3s ease;
+}
+
+.btn:hover{
+    tranform:tranlateY(-3px);
+    background-color: #ffd27a;
+}
