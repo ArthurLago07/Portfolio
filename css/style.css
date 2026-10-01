@@ -189,58 +189,25 @@ nav a:hover {
     hyphens: auto;
 }
 
-.reveal{
+.reveal {
     opacity: 0;
     transform: translateY(24px);
     transition: opacity 0.6s ease, transform 0.6s ease;
 }
 
-.reveal.visivel{
+.reveal.visivel {
     opacity: 1;
     transform: translateY(0);
 }
 
-.sobre-conteudo{
-        grid-template-columns: 1fr;
-    }
-    .sobre-foto{
-        max-width: 220px;
-        margin: 0 auto;
-    }
-
-@media (max-width: 700px) {
-    #inicio h1 {
-        font-size: 2.25rem;
-    }
-
-    nav {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 0.75rem;
-    }
-
-    nav ul {
-        flex-wrap: wrap;
-        gap: 0.5rem 1rem;
-    }
-
-    section {
-        padding: 2rem 1.25rem;
-    }
-
-    .hero-botoes {
-        flex-wrap: wrap;
-    }
-}
-
-.sobre-conteudo{
-    display:grid;
+.sobre-conteudo {
+    display: grid;
     grid-template-columns: 280px 1fr;
     gap: 2.5rem;
     align-items: start;
 }
 
-.sobre-foto{
+.sobre-foto {
     width: 100%;
     aspect-ratio: 1/1;
     object-fit: cover;
@@ -248,7 +215,7 @@ nav a:hover {
     border: 1px solid #2a2a2a;
 }
 
-.voltar-topo{
+.voltar-topo {
     position: fixed;
     right: 1.5rem;
     bottom: 1.5rem;
@@ -266,16 +233,16 @@ nav a:hover {
     opacity: 0;
     pointer-events: none;
     transform: translateY(10px);
-    transition: opacity 0.3s ease, transform 0.3s ease,background-color 0.3s ease;
+    transition: opacity 0.3s ease, transform 0.3s ease, background-color 0.3s ease;
 }
 
-.voltar-topo.ativo{
+.voltar-topo.ativo {
     opacity: 1;
     pointer-events: auto;
     transform: translateY(0);
 }
 
-.voltar-topo:hover{
+.voltar-topo:hover {
     background-color: #ffd27a;
 }
 
@@ -305,4 +272,38 @@ nav a:hover {
 .card-em-breve {
     color: #8a8782;
     font-size: 0.9rem;
+}
+
+@media (max-width: 700px) {
+    #inicio h1 {
+        font-size: 2.25rem;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.75rem;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        gap: 0.5rem 1rem;
+    }
+
+    section {
+        padding: 2rem 1.25rem;
+    }
+
+    .hero-botoes {
+        flex-wrap: wrap;
+    }
+
+    .sobre-conteudo {
+        grid-template-columns: 1fr;
+    }
+
+    .sobre-foto {
+        max-width: 220px;
+        margin: 0 auto;
+    }
 }
