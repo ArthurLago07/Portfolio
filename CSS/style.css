@@ -142,6 +142,8 @@ nav a:hover {
     border-radius: 12px;
     padding: 1.5rem;
     transition: transform 0.2s ease, border-color 0.3s ease;
+    display: flex;
+    flex-direction: column;
 }
 
 .card:hover {
@@ -285,4 +287,22 @@ nav a:hover {
     stroke-width: 2;
     stroke-linecap: round;
     stroke-linejoin: round;
+}
+
+.btn-pequeno {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+}
+
+.card-acoes {
+    margin-top: auto;
+    padding-top: 1rem;
+    display: flex;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+}
+
+.card-em-breve {
+    color: #8a8782;
+    font-size: 0.9rem;
 }
