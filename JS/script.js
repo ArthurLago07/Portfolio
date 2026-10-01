@@ -17,3 +17,12 @@ secoes.forEach(function (secao) {
             observador.observe(secao);
         });
     }, 100);
+
+    const botaoTopo = document.querySelector(".voltar-topo");
+    window.addEventListener("scroll", function(){
+        if (window.scrollY > 400) {
+            botaoTopo.classList.add("ativo");
+        } else {
+            botaoTopo.classList.remove("ativo");
+        }
+    });
