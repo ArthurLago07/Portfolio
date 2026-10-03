@@ -22,7 +22,7 @@ O portfólio foi desenvolvido utilizando:
 
 O projeto continuará sendo atualizado conforme avanço nos meus estudos e desenvolvo novos projetos.
 
-Caso queira entrar em contato comigo:
+Caso queira entrar em contato :
 
 - LinkedIn: www.linkedin.com/in/arthur-lago-ximenes
 - GitHub: https://github.com/ArthurLago07
